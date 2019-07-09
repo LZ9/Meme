@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandView">
+        <attr name="ev_title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ExpandProblemView">
+        <attr name="epv_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandRepairView">
+        <attr name="erv_title" format="string" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="img_upload">
+
+        <attr name="img_just_take_photo" format="boolean" />
+        <attr name="img_num" format="integer" />
+        <attr name="img_type" format="string" />
+        <!--预览图片是否从网络获取-->
+        <attr name="img_from_net" format="boolean" />
+    </declare-styleable>
+
+</resources>
